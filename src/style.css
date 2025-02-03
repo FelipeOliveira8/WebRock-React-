@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Monospace', sans-serif;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: snow;
+}
+/* fixed navegation bar style */
+.navBar{
+    width: 100vw;
+    height: 6em;
+    display: flex;
+    background-color: rgb(39, 39, 39);
+    position: fixed;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.navBar img{
+    height: 5em;
+    margin: auto;
+    margin-left: 2em;
+}
+.navBar ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    width: 60%;
+    justify-content: space-between;
+}
+.navBar ul li{
+    text-align: center;
+}
+.navBar ul li button{
+    padding: 1em 0.5em;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-style: none;
+    font-size: 1.4em;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.navBar ul li button:hover{
+    background-color: rgb(34, 34, 34);
+}

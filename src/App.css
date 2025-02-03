@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: snow;
+}
+/* fixed navegation bar style */
+.navBar{
+    width: 100vw;
+    height: 6em;
+    top: 0;
+    position: fixed;
+    display: flex;
+    background-color: rgb(24, 24, 24);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    z-index: 2;
+}
+.navBar img{
+    height: 4em;
+    margin: auto;
+    margin-left: 1.5em;
+}

@@ -1,0 +1,247 @@
+body, textarea{
+    margin: 0;
+    padding-top: 4em;
+    font-family: 'Monospace', sans-serif;
+}
+/*
+
+    font-family: 'Courier New', Courier, monospace;
+
+*/  
+.menu-inicial{
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-inicial a{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.voltar{
+    width: 210px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    transition: .2s;
+}
+.voltar:hover{
+    border-radius: 5px;
+    background-color: rgb(22, 22, 22);
+    transition: .2s;
+}
+.voltar img{
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+.voltar h3{
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin-right: 40px;
+    margin-top: 10px;
+}
+.logo img{
+    width: 78px;
+    height: 78px;
+    margin: auto;
+}
+.name{
+    width: auto;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.name h1{
+    text-align: center;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.group{
+    width: 80%;
+    height: auto;
+    box-shadow: 10px black;
+    margin: auto;
+}
+.group img{
+    width: 100%;
+    height: auto;
+}
+.history{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.history h2{
+    font-size: 40px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.history p{
+    margin-top: 0px;
+    font-size: 20px;
+    text-justify: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.members{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.t-mbrs{
+    width: auto;
+    height: auto;
+}
+.t-mbrs h2{
+    font-size: 40px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+}
+.p-mbrs{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.p-mbrs button{
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+}
+.profile{
+    width: 200px;
+    height: 240px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    transition: .2s;
+    border: none;
+    background-color: transparent;
+}
+.profile:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+.profile img{
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    background-color: blueviolet;
+    margin: auto;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2);
+}
+.profile h2{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+}
+.profile p{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(32, 32, 32);
+}
+.albums{
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height: 650px;
+}
+.a-top{
+    width: auto;
+    margin: auto;
+}
+.a-top h2{
+    font-size: 40px;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+}
+.a-bottom{
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.a-bottom a{
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+}
+.disco{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 25px;
+    transition: .2s;
+    border: none;
+    background-color: transparent;
+}
+.disco:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+.disco img{
+    width: 180px;
+    height: 180px;
+    margin: auto;
+    box-shadow: 0px 0 30px rgba(0, 0, 0, 0.2);
+}
+.disco h2{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    color: black;
+}
+.disco p{
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: rgb(32, 32, 32);
+}
+.a-bottom2{
+    width: 100%;
+    margin: auto;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+.a-bottom2 a{
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+    justify-content: space-between;
+}
