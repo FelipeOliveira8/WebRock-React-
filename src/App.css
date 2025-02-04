@@ -1,11 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 body{
     background-color: snow;
 }
-/* fixed navegation bar style */
 .navBar{
     width: 100vw;
     height: 6em;
@@ -20,4 +15,28 @@ body{
     height: 4em;
     margin: auto;
     margin-left: 1.5em;
+}
+.navBar ul{
+    height: 3em;
+    color: white;
+    list-style: none;
+    display: flex;
+    margin: auto;
+    margin-right: 2em;
+    gap: 1.5em;
+}
+.navBar ul li{
+    color: white;
+    margin: auto;
+}
+.navBar ul li button{
+    padding: 0.7em;
+    font-size: 1em;
+    color: white;
+    background-color: rgb(20, 20, 20);
+    border-style: solid;
+    border-color: white;
+    border-width: 0.1px;
+    border-radius: 0.3em;
+    cursor: pointer;
 }

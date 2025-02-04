@@ -1,13 +1,7 @@
-body, textarea{
-    margin: 0;
-    padding-top: 4em;
-    font-family: 'Monospace', sans-serif;
+section{
+    height: 100vh;
+    padding-top: 3em;
 }
-/*
-
-    font-family: 'Courier New', Courier, monospace;
-
-*/  
 .menu-inicial{
     margin: 0;
     width: 100%;
@@ -109,7 +103,7 @@ body, textarea{
     width: 80%;
     height: auto;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 3em;
     display: flex;
     flex-direction: column;
 }
@@ -169,13 +163,13 @@ body, textarea{
     text-align: center;
     margin: auto;
     color: rgb(32, 32, 32);
+    bottom: 6em;
 }
 .albums{
-    width: 80%;
     margin: auto;
-    margin-top: 40px;
-    padding-bottom: 4em;
-    height: 650px;
+    min-height: 1em;
+    max-height: fit-content;
+    margin-top: 2em;
 }
 .a-top{
     width: auto;
@@ -186,25 +180,15 @@ body, textarea{
     text-align: left;
     font-family:'Courier New', Courier, monospace;
 }
-.a-bottom{
-    width: 100%;
-    margin: auto;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-}
-.a-bottom a{
-    text-decoration: none;
-    margin: auto;
-    padding: auto;
-    justify-content: space-between;
+.discos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 .disco{
     width: 200px;
     height: 250px;
     display: flex;
     flex-direction: column;
-    margin: auto;
     margin-top: 25px;
     transition: .2s;
     border: none;
@@ -234,18 +218,4 @@ body, textarea{
     text-align: center;
     margin: auto;
     color: rgb(32, 32, 32);
-}
-.a-bottom2{
-    width: 100%;
-    margin: auto;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 130px;
-}
-.a-bottom2 a{
-    text-decoration: none;
-    margin: auto;
-    padding: auto;
-    justify-content: space-between;
 }
