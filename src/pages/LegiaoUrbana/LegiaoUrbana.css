@@ -1,62 +1,7 @@
-body, textarea{
+.mainS, textarea{
     margin: 0;
-    padding-top: 4em;
+    margin-top: 8em;
     font-family: 'Monospace', sans-serif;
-}
-/*
-
-    font-family: 'Courier New', Courier, monospace;
-
-*/  
-.menu-inicial{
-    margin: 0;
-    width: 100%;
-    height: 100px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-}
-.menu-inicial a{
-    text-decoration: none;
-    margin: 0;
-    padding: 0;
-}
-.voltar{
-    width: 210px;
-    height: 60px;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-between;
-    transition: .2s;
-}
-.voltar:hover{
-    border-radius: 5px;
-    background-color: rgb(22, 22, 22);
-    transition: .2s;
-}
-.voltar img{
-    width: 50px;
-    height: 50px;
-    margin: auto;
-}
-.voltar h3{
-    font-size: 20px;
-    color: aliceblue;
-    text-align: center;
-    margin: auto;
-}
-.logo{
-    width: 80px;
-    height: 80px;
-    margin-right: 40px;
-    margin-top: 10px;
-}
-.logo img{
-    width: 78px;
-    height: 78px;
-    margin: auto;
 }
 .name{
     width: auto;
@@ -68,7 +13,7 @@ body, textarea{
 .name h1{
     text-align: center;
     font-size: 60px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .group{
     width: 80%;
@@ -175,7 +120,6 @@ body, textarea{
     margin: auto;
     margin-top: 40px;
     padding-bottom: 4em;
-    height: 650px;
 }
 .a-top{
     width: auto;
@@ -189,9 +133,9 @@ body, textarea{
 .a-bottom{
     width: 100%;
     margin: auto;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
 }
 .a-bottom a{
     text-decoration: none;
@@ -234,18 +178,4 @@ body, textarea{
     text-align: center;
     margin: auto;
     color: rgb(32, 32, 32);
-}
-.a-bottom2{
-    width: 100%;
-    margin: auto;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
-    margin-top: 130px;
-}
-.a-bottom2 a{
-    text-decoration: none;
-    margin: auto;
-    padding: auto;
-    justify-content: space-between;
 }

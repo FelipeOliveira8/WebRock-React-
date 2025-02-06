@@ -3,7 +3,7 @@ import './CapitalInicial.css' ;
 function CapitalInicial(){
     return (
         <>
-            <section>
+            <section className='mainS'>
                 <div className="name">
                     <h1>Capital Inicial</h1>
                 </div>

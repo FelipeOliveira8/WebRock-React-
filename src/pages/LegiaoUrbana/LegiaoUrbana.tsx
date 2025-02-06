@@ -1,9 +1,10 @@
 import './LegiaoUrbana.css';
+import git from '../../assets/githublogo.png';
 
 function LegiaoUrbana() {
     return (
         <>
-            <section>
+            <section className='mainS'>
                 <div className="name">
                     <h1>Legião Urbana</h1>
                 </div>
@@ -70,8 +71,6 @@ function LegiaoUrbana() {
                             <h2>As Quatro Estações</h2>
                             <p>1989</p>
                         </button>
-                    </div>
-                    <div className="a-bottom2">
                         <button className="disco">
                             <img src="/imagesLU/disco5.jpg" alt="V" />
                             <h2>V</h2>
@@ -89,7 +88,7 @@ function LegiaoUrbana() {
                         </button>
                     </div>
                 </div>
-            </section>
+            </section>            
         </>
     )
 }

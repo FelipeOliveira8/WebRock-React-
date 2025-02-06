@@ -3,7 +3,7 @@ import './Paralamas.css' ;
 function Paralamas(){
     return (
         <>
-            <section>
+            <section className='mainS'>
                 <div className="name">
                     <h1>Os Paralamas Do Sucesso</h1>
                 </div>

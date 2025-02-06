@@ -1,5 +1,7 @@
 body{
     background-color: snow;
+    margin: 0;
+    padding: 0;
 }
 .navBar{
     width: 100vw;
@@ -11,10 +13,15 @@ body{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     z-index: 2;
 }
-.navBar img{
-    height: 4em;
+.navBar nav{
     margin: auto;
     margin-left: 1.5em;
+}
+.navBar nav a{
+    text-decoration: none;
+}
+.navBar nav a img{
+    height: 4em;
 }
 .navBar ul{
     height: 3em;
@@ -39,4 +46,9 @@ body{
     border-width: 0.1px;
     border-radius: 0.3em;
     cursor: pointer;
+    transition: .2s;
+}
+.navBar ul li button:hover{
+    background-color: rgb(34, 34, 34);
+    transition: .2s;
 }
